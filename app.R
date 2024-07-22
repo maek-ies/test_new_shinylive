@@ -16,6 +16,7 @@ library(grid)
 library(shinyjs)
 library(shinycssloaders)
 library(openxlsx)
+library(gt)
 
 
 
