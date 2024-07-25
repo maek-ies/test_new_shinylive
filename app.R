@@ -7,16 +7,16 @@ library(shinythemes)
 
 
 library(data.table)
-#library(ggplot2)
-#library(zoo)
-#library(ggh4x)
-#library(DT)
-#library(lubridate)
-#library(grid)
-#library(shinyjs)
-#library(shinycssloaders)
-#library(openxlsx)
-#library(gt)
+library(ggplot2)
+library(zoo)
+library(ggh4x)
+library(DT)
+library(lubridate)
+library(grid)
+library(shinyjs)
+library(shinycssloaders)
+library(openxlsx)
+library(gt)
 
 
 
