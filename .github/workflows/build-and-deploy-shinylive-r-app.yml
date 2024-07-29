@@ -34,8 +34,17 @@ jobs:
           with:
             packages:
               cran::shinylive,
-              data.table
-  
+              data.table,
+              ggplot2,
+              zoo,
+              ggh4x,
+              DT,
+              lubridate,
+              grid,
+              shinyjs,
+              shinycssloaders,
+              openxlsx
+              
         # Export the current working directory as the shiny app
         # using the pinned version of the Shinylive R package
         - name: Create Shinylive App from working directory files
