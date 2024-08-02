@@ -43,7 +43,8 @@ jobs:
               grid,
               shinyjs,
               shinycssloaders,
-              openxlsx
+              openxlsx,
+              gt
               
         # Export the current working directory as the shiny app
         # using the pinned version of the Shinylive R package
