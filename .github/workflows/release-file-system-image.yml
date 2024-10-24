@@ -6,7 +6,7 @@ name: r-wasm/actions - image
 
 jobs:
   image:
-    uses: ./.github/workflows/release-file-system-image.yml
+    #uses: ./.github/workflows/release-file-system-image.yml
     with:
       packages: cli, data.table
       strip: c("demo", "doc", "examples", "help", "html", "include", "tests", "vignette")
