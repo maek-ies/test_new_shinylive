@@ -1,0 +1,15 @@
+on:
+  release:
+    types: [published]
+
+name: r-wasm/actions - image
+
+jobs:
+  image:
+    uses: ./.github/workflows/release-file-system-image.yml
+    with:
+      packages: cli, data.table
+      strip: c("demo", "doc", "examples", "help", "html", "include", "tests", "vignette")
+    permissions:
+      contents: write
+      repository-projects: read
