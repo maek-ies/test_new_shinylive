@@ -8,7 +8,7 @@ jobs:
    release-file-system-image:
     uses: r-wasm/actions/.github/workflows/release-file-system-image.yml@v2
     with:
-      packages: cli, data.table, R.utils, ggplot2, zoo, ggh4x, DT, lubridate, grid, shinyjs, shinycssloaders, openxlsx, opensxlsx2, flextable, ggrepel, ggiraph, rhandsontable
+      packages: cli, data.table, R.utils, ggplot2, zoo, ggh4x, DT, lubridate, grid, shinyjs, shinycssloaders, openxlsx, openxlsx2, flextable, ggrepel, ggiraph, rhandsontable
       strip: c("demo", "doc", "examples", "help", "html", "include", "tests", "vignette")
     permissions:
       contents: write
